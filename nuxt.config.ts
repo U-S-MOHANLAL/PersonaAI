@@ -8,11 +8,10 @@ export default defineNuxtConfig({
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL,
       defaultCharacterId: process.env.NUXT_PUBLIC_DEFAULT_CHARACTER_ID,
-      googleClientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
     },
   },
     googleSignIn: {
-    clientId: process.env.NUXT_PUBLIC_GOOGLE_CLIENT_ID,
+    clientId: "757492714107-f8bbpiiigbc3ea4hejhg49legf2et0vv.apps.googleusercontent.com",
   },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
