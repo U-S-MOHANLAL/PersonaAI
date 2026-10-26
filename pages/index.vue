@@ -310,8 +310,8 @@ const characters = [
     ],
   },
   {
-    id: "walter-white",
-    name: "Walter White",
+    id: "zack-white",
+    name: "Zack White",
     avatar: "🧪",
     role: "Calculating, brilliant, controlling",
     summary:
@@ -536,7 +536,7 @@ const selectedCharacterId = ref("batman");
 const activePrompt = ref("bad-day");
 const selectedTraits = reactive({
   batman: ["Stoic", "Protective", "Relentless"],
-  "walter-white": ["Calculating", "Brilliant", "Controlling"],
+  "zack-white": ["Calculating", "Brilliant", "Controlling"],
   "leading-lady": ["Charming", "Glamorous", "Affectionate"],
   "anime-hero": ["Spirited", "Loyal", "Determined"],
   "webslinger": ["Witty", "Brave", "Friendly"],
