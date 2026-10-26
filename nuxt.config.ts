@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     },
   },
     googleSignIn: {
-    clientId: "757492714107-f8bbpiiigbc3ea4hejhg49legf2et0vv.apps.googleusercontent.com",
+    clientId: "488735869290-q979s2n8c5m0ori8q9b1hbqo64eir2he.apps.googleusercontent.com",
   },
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
