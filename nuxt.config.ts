@@ -2,7 +2,7 @@
 import process from 'node:process'
 export default defineNuxtConfig({
   nitro: {
-    preset: "node-server",
+    preset: "vercel",
   },
   runtimeConfig: {
     public: {
